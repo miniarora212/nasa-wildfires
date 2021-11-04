@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+  /*  align-items: center;
+    justify-content: center;*/
+    flex-direction: column;
+    height: 100%;
+}
+/*.DataDetails {
+    margin: 2rem
+}*/
+.headingMain {
+    font-weight: lighter;
+    font-size: revert;
+}
+.Slider {
+    width: 50%
+}
+.header, .footer {
+	background-image: linear-gradient(to right, #0d242b , #25535b);
+	font-size: 16px;
+    font-weight: 500;
+}
+

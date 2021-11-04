@@ -1,0 +1,25 @@
+.TableContainer{
+    display: flex;
+    justify-content: flexStart;
+    flex-direction: column;
+    padding-bottom:1rem;
+}
+.TableContainer thead.ant-table-thead th {
+    background: #26545c;
+    color: #fff;
+}
+.TableContainer tbody tr:nth-child(even) {
+    background: rgb(38 84 92 / 19%);
+}
+.TableContainer .ant-table-cell a {
+    background: #26545c;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.ant-pagination-item-link {
+    background: #26545c !important;
+    color: #fff !important;
+    font-weight: bold;
+}

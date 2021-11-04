@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DataTable Should render the Data table successfully 1`] = `
+<DocumentFragment>
+  <div
+    class="TableContainer mt-5"
+  >
+    <h2
+      class="table-heading"
+    >
+      Wildfires Data
+    </h2>
+    <div
+      class="ant-table-wrapper"
+    >
+      <div
+        class="ant-spin-nested-loading"
+      >
+        <div
+          class="ant-spin-container"
+        >
+          <div
+            class="ant-table"
+          >
+            <div
+              class="ant-table-container"
+            >
+              <div
+                class="ant-table-content"
+              >
+                <table
+                  style="table-layout: auto;"
+                >
+                  <colgroup />
+                  <thead
+                    class="ant-table-thead"
+                  >
+                    <tr>
+                      <th
+                        class="ant-table-cell"
+                      >
+                        ID
+                      </th>
+                      <th
+                        class="ant-table-cell"
+                      >
+                        Start Date
+                      </th>
+                      <th
+                        class="ant-table-cell"
+                      >
+                        Closed Date
+                      </th>
+                      <th
+                        class="ant-table-cell"
+                      >
+                        Title
+                      </th>
+                      <th
+                        class="ant-table-cell"
+                      >
+                        Source Info
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody
+                    class="ant-table-tbody"
+                  >
+                    <tr
+                      class="ant-table-row ant-table-row-level-0"
+                      data-row-key="1"
+                    >
+                      <td
+                        class="ant-table-cell"
+                      >
+                        1
+                      </td>
+                      <td
+                        class="ant-table-cell"
+                      />
+                      <td
+                        class="ant-table-cell"
+                      />
+                      <td
+                        class="ant-table-cell"
+                      >
+                        Test fire
+                      </td>
+                      <td
+                        class="ant-table-cell"
+                      >
+                        <a
+                          href="https://test.com"
+                          target="_blank"
+                        >
+                          View
+                        </a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    ;
+  </div>
+</DocumentFragment>
+`;

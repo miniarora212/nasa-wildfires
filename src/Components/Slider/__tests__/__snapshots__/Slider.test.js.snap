@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slider Should render the slider successfully 1`] = `
+<DocumentFragment>
+  <div
+    class="sliderContainer w-50"
+  >
+    <div
+      class="ant-slider ant-slider-with-marks"
+    >
+      <div
+        class="ant-slider-rail"
+      />
+      <div
+        class="ant-slider-track"
+        style="left: 0%; width: 45.45454545454545%;"
+      />
+      <div
+        class="ant-slider-step"
+      >
+        <span
+          class="ant-slider-dot ant-slider-dot-active"
+          style="left: 0%;"
+        />
+        <span
+          class="ant-slider-dot"
+          style="left: 100%;"
+        />
+      </div>
+      <div
+        aria-disabled="false"
+        aria-valuemax="24"
+        aria-valuemin="2"
+        aria-valuenow="12"
+        class="ant-slider-handle"
+        role="slider"
+        style="left: 45.45454545454545%; transform: translateX(-50%);"
+        tabindex="0"
+      />
+      <div
+        class="ant-slider-mark"
+      >
+        <span
+          class="ant-slider-mark-text ant-slider-mark-text-active"
+          style="transform: translateX(-50%); left: 0%;"
+        >
+          Start
+        </span>
+        <span
+          class="ant-slider-mark-text"
+          style="transform: translateX(-50%); left: 100%;"
+        >
+          End
+        </span>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
